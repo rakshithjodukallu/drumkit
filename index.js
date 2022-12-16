@@ -58,6 +58,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
                 console.log(buttonInnerHTML)
 
         }
+        audio.currentTime = 0;
     }
     
 function buttonAnimation(currentKey){
